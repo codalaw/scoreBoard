@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;  
+    border: 1px solid black;
+    width: 600px;
+    height: 350px;
+    font-family: '60s Scoreboard', sans-serif;
+    font-size: 40px;
+    background-color: rgb(31, 31, 97);
+}
+
+.location {
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.location-text {
+    font-size: 60px; 
+    margin-bottom: 10px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ScoreScreen {
+    border: 1px solid black;
+    height: 8vh;
+    width: 8vh;
+    padding: 20px;
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+.button-container {
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;
+    gap: 10px;  
+    width: 200px; 
+}
+
+.incrementBtn, .decrementBtn {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid white;
+    width: 60px;  
+}
+
+.incrementBtn:hover, .decrementBtn:hover {
+    background-color: rgb(0, 0, 204); 
+}
